@@ -20,8 +20,9 @@ console.log(result,"inch");
 
 // brickCalculate
 
-// tinyFriend
 
+
+// tinyFriend
 
 function tinyFriend(name) {
     var tiny = name[0];
@@ -35,5 +36,5 @@ function tinyFriend(name) {
     return tiny;
 }
 
-var friendList = ["saiful","ibrahim","himu","hdjfff"];
-console.log(tinyFriend(friendList));
+var friendList =tinyFriend(["saiful","ibrahim","himu","hdjfff"])
+console.log(friendList);
